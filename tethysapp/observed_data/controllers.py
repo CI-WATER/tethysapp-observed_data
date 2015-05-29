@@ -1,7 +1,7 @@
 # module imports
 import os, json, re, json
 from django.shortcuts import render
-from .model import SessionMaker, StreamGage
+# from .model import SessionMaker, StreamGage
 from .lib.getvalues_python import getSitesinBBOX, getVarCode, getJSON, userMenu, getPlotJSON
 from datetime import datetime
 
